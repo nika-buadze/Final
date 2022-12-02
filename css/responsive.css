@@ -1,0 +1,163 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media (max-width:968px) {
+
+    .section2-top{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        gap: 15px;
+    }
+    
+    
+    }
+    @media (max-width:700px) {
+    
+    .testimonials{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .img-t{
+        width: 320px;
+    }
+    .testimonial-text{
+        width: 300px;
+    }
+    .section2-bottom{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .section2-bottom div {
+       width: 70%;
+     
+       height: 250px;
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+           -ms-flex-direction: column;
+               flex-direction: column;
+       -webkit-box-align: center;
+           -ms-flex-align: center;
+               align-items: center;
+       -webkit-box-pack: center;
+           -ms-flex-pack: center;
+               justify-content: center;
+    }
+    
+    }
+    @media (max-width:494px) {
+        .about-text-bottom div h3{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+        }
+    
+        .about-text-bottom div h3{
+            text-align: center;
+        }
+    }
+    @media (max-width:768px) {
+    .section1{
+        overflow-x: hidden;
+    }
+    .about-text-top{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    }
+    .about-text-top p{
+        width: 100%;
+    
+    }
+    .about-text-top h1{
+        font-size: 35px;
+    }
+    .about-text-top p{
+    text-align: left;}
+        .hamburger{
+            display: block;
+            z-index: 2;
+            cursor: pointer;
+        }
+        .nav-links{
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: start;
+                -ms-flex-align: start;
+                    align-items: flex-start;
+       
+            position: absolute;
+            top: 0;
+            right: -100%;
+            
+            -webkit-transition: 350ms;
+            
+            -o-transition: 350ms;
+            
+            transition: 350ms;
+            padding: 50px 25px;
+    
+        }
+        .nav-links li{
+            width: 100%;
+            cursor: pointer;
+        }
+        .activeNav{
+            right: 0%;
+            width: 80vw;
+            height: 50vh;
+            border-bottom-left-radius: 20px;
+          
+            background-color: rgba(0, 183, 255, 0.938);
+        }
+        
+        }
+        @media (max-width:480px) {
+    footer{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        gap: 50px;
+    }
+        }
