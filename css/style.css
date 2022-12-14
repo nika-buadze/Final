@@ -4,6 +4,7 @@
 * Autoprefixer: v10.4.7
 * Browsers: last 4 version
 */
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@700&display=swap");
 
 body {
   scroll-behavior: smooth;
@@ -136,6 +137,7 @@ img {
 }
 
 .main-text {
+  font-family: "Unbounded", cursive;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -152,7 +154,7 @@ img {
   z-index: 2;
 }
 .main-text h2 {
-  font-size: 70px;
+  font-size: 50px;
   text-align: center;
   font-weight: 800;
 }
