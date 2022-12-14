@@ -100,7 +100,7 @@ img {
   align-items: center;
 }
 
-.bb {
+.nav-li {
   padding: 14px 14px;
   -webkit-transition: 250ms ease-in-out;
   -o-transition: 250ms ease-in-out;
@@ -109,7 +109,7 @@ img {
   border-bottom: 1px solid transparent;
 }
 
-.bb:hover {
+.nav-li:hover {
   border-bottom: 1px solid white;
 }
 
@@ -172,6 +172,8 @@ img {
 }
 .spooncolor {
   color: #fff;
+  font-family: "Unbounded", cursive;
+  font-size: 30px;
 }
 .main-text div {
   margin-top: 30px;
@@ -235,6 +237,7 @@ img {
 }
 
 .section2-div-industry {
+  font-family: "Unbounded", cursive;
   height: 75px;
   position: relative;
 }
